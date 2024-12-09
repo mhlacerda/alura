@@ -6,7 +6,6 @@
   padding: 1rem 1.5rem;
   position: relative;
   left: 0;
-  
 }
 
 .container{
@@ -26,7 +25,6 @@
   background-repeat: no-repeat;
   display: inline-block;
   margin: 0;
-  
 }	
 
 .lista-menu{
@@ -36,11 +34,12 @@
   top: 100%;
   width: 18rem;
   background-color: var(--branco);
-  
 }
+
 .container_botao{
   display: none;
 }
+
 .container_botao:checked ~ .lista-menu{
   display: block;
 }

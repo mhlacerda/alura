@@ -1,0 +1,14 @@
+hr{
+  border: 1px solid #858585;
+  margin: 0;
+}
+
+
+.rodape{
+  background-color: var(--cinza);
+  height: 4.062rem;
+}
+
+.rodape__titulo{
+  padding: 1.062rem 0 0 1.5rem;
+}
