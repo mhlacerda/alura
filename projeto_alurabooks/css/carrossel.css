@@ -81,3 +81,34 @@
 .descricao__estrelinhas{
   margin-bottom: 9px;
 }
+
+
+@media screen and (min-width: 1024px){
+  .carrossel__titulo{
+    font-size: 1.625rem;
+    text-align: center;
+    padding-top: 3.187rem;
+    padding-bottom: 1rem;
+  }
+
+  .swiper-pagination{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .swiper{
+    width: 51rem;
+    margin-bottom: 3.84rem;
+  }
+  .swiper-slide img{
+    width: 18rem;
+  }
+  .swiper-button-prev, .swiper-button-next{
+    display: block;
+    top: 60%;
+  }
+  .card{
+    width: 36.75rem;
+    margin: 0 auto 3rem auto;
+  }
+}

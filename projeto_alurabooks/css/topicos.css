@@ -37,5 +37,11 @@
   padding: 1rem 1.5rem;
 }
 
-
-
+@media screen and (min-width: 1024px){
+  .topicos__titulo{
+    font-size: 1.5rem;
+  }
+  .topicos_links{
+    font-size: 1.5rem;
+  }
+}
