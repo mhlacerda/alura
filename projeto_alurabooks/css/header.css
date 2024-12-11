@@ -35,6 +35,7 @@
   top: 100%;
   width: 18rem;
   background-color: var(--branco);
+  z-index: 8;
 }
 .container_botao{
   display: none;
