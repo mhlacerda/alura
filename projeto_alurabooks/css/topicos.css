@@ -44,4 +44,25 @@
   .topicos_links{
     font-size: 1.5rem;
   }
+  .retangulo{
+    display: none;
+  }
 }
+
+@media screen and (min-width: 1724px){
+  .topicos__titulo{
+    font-size: 2rem;
+  }
+  .topicos__lista{
+    width: 46.43rem;
+  
+  }
+  .topicos{
+    height: 26.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

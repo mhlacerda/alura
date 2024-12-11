@@ -56,4 +56,18 @@
   .contato__email{
     width: 30%;
   }
+
+}
+
+@media screen and (min-width:1728px) {
+  .contato__email{
+    width: 20%;
+  }
+  .contato_conteudo{
+    width: 20%;
+  }
+  .contato{
+    padding: 4rem 0;
+  }
+  
 }
