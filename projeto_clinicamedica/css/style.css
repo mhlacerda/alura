@@ -3,6 +3,10 @@
 
 @import url(cabecalho.css);
 @import url(agendamentos.css);
+@import url(menu_rodape.css);
+@import url(menu_flutuante.css);
+
+
 
 :root{
   --fonte: "Montserrat", sans-serif;

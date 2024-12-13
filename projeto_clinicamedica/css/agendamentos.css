@@ -1,3 +1,6 @@
+.agendamentos{
+  margin-bottom: 26%;
+}
 .consultas{
   display: flex;
   flex-direction: column;
@@ -11,7 +14,8 @@
 .agendamento_card{
   background-color: var(--branco);
   display: grid;
-  grid-template: 2rem 2rem 2rem 4.62rem / repeat(4,1fr);
+  grid-template: 2rem 2rem 2rem 4.62rem / repeat(4, 1fr);
+  border-radius: 8px;
 
 }
 .agendamento_imagem_paciente{
@@ -34,8 +38,16 @@
   grid-area: 2 / 2 / 3 / 4;
 }
 .agendamento_imagem_chat{
-  grid-area: 1 / 4 / 2 / 5;
-  margin-left: 4rem;
+  grid-area: 1 / 4 / 3 / 5;
+  justify-self: center;
+  align-self: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background-image: url('../images/chat_circulo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .linha{
   border: .2px solid var(--borda-botao);
