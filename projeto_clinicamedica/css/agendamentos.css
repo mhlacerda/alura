@@ -16,6 +16,7 @@
   display: grid;
   grid-template: 2rem 2rem 2rem 4.62rem / repeat(4, 1fr);
   border-radius: 8px;
+  max-width: 25rem;
 
 }
 .agendamento_imagem_paciente{
@@ -88,3 +89,15 @@
   grid-area: 4 / 1 / 5 /5;
 }
 
+@media screen and (min-width: 768px){
+  .consultas{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+  .consulta_dia{
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+} 
