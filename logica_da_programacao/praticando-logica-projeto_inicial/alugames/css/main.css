@@ -70,6 +70,8 @@
 
 .dashboard__items {
     display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
     justify-content: space-between;
 }
 
