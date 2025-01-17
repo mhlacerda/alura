@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url(cabecalho.css);
+@import url(agendamentos.css);
+@import url(menu_rodape.css);
+@import url(menu_flutuante.css);
+
+
+
+:root{
+  --fonte: "Montserrat", sans-serif;
+  
+  --cor-escura: #464646;
+  --cor-clara: #A3A3A3;
+  --borda-botao: #ececec;
+  --branco: #ffffff;
+  --azul: #4894FF;
+  --laranja: #FFB050;
+  --fundo: #f6f6f6;
+
+}
+
+body{
+  font-family: var(--fonte);
+  background-color: var(--fundo);
+  line-height: 160%;
+  color: var(--cor-escura);
+}

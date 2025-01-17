@@ -1,0 +1,71 @@
+
+
+.menu_flutuante{
+  display: none;
+}
+
+.botao{
+  display: flex;
+  flex-direction: column;
+}
+.menu_flutuante_item_video{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  bottom: 9.125rem;
+  position: fixed;
+  right: 1rem; 
+  z-index: 100;
+}
+.menu_flutuante_item_lugar{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  bottom: 13.625rem;
+  position: fixed;
+  right: 1rem;
+  z-index: 100; 
+}
+.botao_flutuante_texto_lugar, .botao_flutuante_texto_video{
+  font-family: var(--fonte);
+  color: var(--cor-escura);
+  font-weight: 600;
+  font-size: 0.75rem;
+  background-color: var(--branco);
+  border-radius: 23px;
+  padding: 0.125rem 0.5rem ;
+}
+.botao_flutuante{
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  filter: drop-shadow(0 3px 6px #4894FF90);
+  background-color: transparent
+}
+.botao_flutuante_mais{
+  background-image: url("../images/botao_flutuante.svg");
+  bottom: 5.125rem;
+  position: fixed;
+  right: 1rem; 
+  z-index: 100;
+}
+.botao_flutuante_lugar{
+  background-image: url("../images/botao_novaconsulta.svg");
+}
+.botao_flutuante_camera{ 
+  background-image: url("../images/botao_novovideo.svg");
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.65); 
+  z-index: 99; 
+  display: none;
+}
