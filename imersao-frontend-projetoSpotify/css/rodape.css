@@ -1,0 +1,35 @@
+.rodape{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to left, rgb(186, 93, 7), rgb(0, 30, 80));
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  max-height: 2rem;
+}
+.rodape_texto_titulo{
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin-bottom: 0.625rem;
+}
+.rodape_texto_paragrafo{
+  color: var(--color-white);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.rodape  button{
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.875rem 1.875rem;
+  border: 0px;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,227 @@
+.sessao_playlist{
+  background-color: var(--color-bg);
+  border-radius: 8px;
+  color: var(--color-white);
+  margin: 0.625rem;
+  padding-top: 1rem;
+
+}
+
+.greeting{
+  margin: 1.5rem;
+  width: 100%;
+
+}
+.greeting_title{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+.greeting_subtitle{
+  font-size:1.5rem;
+  font-weight: 700;
+}
+
+.playlist{
+  margin: 1.5rem;
+}
+.playlist a{
+  text-decoration: none;
+}
+.cards{
+  width: 13.75rem;
+  height: 12.6rem;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cards span{
+  color: var(--color-white);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
+  position: absolute;
+}
+
+.cards img{
+  width: 6.687rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: rotate(25deg) translate(18%, -2%);
+
+}
+.card1{
+  background-color: var(--card1);
+}
+.card2{
+  background-color: var(--card2);
+}
+.card3{
+  background-color: var(--card3);
+}
+.card4{
+  background-color: var(--card4);
+}
+.card5{
+  background-color: var(--card5);
+}
+.card6{
+  background-color: var(--card6);
+}
+.card7{
+  background-color: var(--card7);
+}
+.card8{
+  background-color: var(--card8);
+}
+.card9{
+  background-color: var(--card9);
+}
+.card10{
+  background-color: var(--card10);
+}
+.card11{
+  background-color: var(--card11);
+}
+.card12{
+  background-color: var(--card12);
+}
+.card13{
+  background-color: var(--card13);
+}
+.card14{
+  background-color: var(--card14);
+}
+.card15{
+  background-color: var(--card15);
+}
+
+.scroll-container{
+  max-height: 43vh;
+  overflow-y: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 1px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.list-item{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+
+.hidden{
+  display: none;
+}
+
+.grid-container {
+  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  min-width: 372px;
+}
+
+.artist-card {
+  background: var(--color-bg);
+  border-radius: 8px;
+  -ms-flex: 1;
+  flex: 1;
+  isolation: isolate;
+  padding: 16px;
+  position: relative;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.artist-card:hover {
+  background-color: var(--color-bg2);
+}
+
+.card-img {
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.artist-img {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 62px;
+}
+
+.card-text a {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #fff;
+}
+
+.artist-name {
+  box-sizing: border-box;
+  margin-block: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-block-end: 8px;
+}
+
+.artist-categorie {
+  color: #6a6a6a;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.play {
+  position: relative;
+}
+
+.play .fa-play {
+  position: absolute;
+  right: 10px;
+  top: 120px;
+  padding: 18px;
+  background-color: #1db954;
+  border-radius: 100%;
+  font-size: 14px;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+
+.artist-card:hover .play .fa-play {
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+.play .fa-play:hover {
+  padding: 20px;
+  cursor: pointer;
+}
+
+#result-artist {
+  padding: 20px 40px;
+}
+/* FIM CARD ARTISTA */
