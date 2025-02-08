@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/bd5b4eec63.js" crossorigin="anonymous"></script>
+   <title>Mundo Pet</title>
+</head>
+
+<body>
+  <header aria-label="Cabeçalho" class="cabecalho">
+    <a href="#"><img class="cabecalho__logo" src="./img/logo.png" alt="Logo do Mundo Pet"></a>
+
+    <nav aria-label="Navegação Principal" class="cabecalho__sidebar menu-oculto">
+      <ul class="cabecalho__sidebar__lista">
+        <li class="cabecalho__sidebar__lista-item ">
+          <a class="cabecalho__sidebar__publicar" href="#">Publicar</a>
+        </li>
+        <li class="cabecalho__sidebar__lista-item">
+          <a href="#">
+            <i class="fa-regular fa-file-lines"></i>Feed
+          </a>
+        </li> 
+        <li class="cabecalho__sidebar__lista-item">
+          <a href="#">
+          <i class="fa-solid fa-shield-cat"></i>
+          Perfil
+          </a>
+        </li>
+        <li class="cabecalho__sidebar__lista-item">
+          <a href="#">
+            <i class="fa-solid fa-circle-info"></i>
+            Sobre nós
+          </a>
+        </li>
+        <li class="cabecalho__sidebar__lista-item">
+          <a href="#">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            Sair
+          </a>
+        </li>
+      </ul>
+    </nav>  
+  </header>
+
+  <main aria-label="Conteúdo principal">
+    <div class="container__image">
+      <div class="card__image">
+        <img class="image__upload" src="./img/gatoLaranja.jpg" alt="imagem do animal">
+      </div>
+      <button id="upload-btn" class="carregar">Carregar imagem</button>
+      <input type="file" name="imagem-upload" id="imagem-upload" accept="image/*" hidden>
+      <div class="nome__imagem">
+        <p class="nome__imagem">imagem_do_projeto.png</p>
+       
+      </div>
+    </div>
+
+    <div>
+      <form aria-label="Formulário inscrição">
+        <fieldset class="container__form">
+          <legend class="form__title">Nova foto</legend>
+        
+          <label class="form__text" for="nome">Nome do animal</label>        
+          <input type="text" name="nome" id="nome">  
+          
+          <label class="form__text" for="descricao">Descrição</label>
+          <textarea name="descricao" id="descricao"></textarea>
+        
+          <label class="form__text" for="hashtags">Hashtags</label>
+          <input list="tagsPermitidas" name="hashtags" id="hashtags">
+          <datalist id="tagsPermitidas"></datalist>
+       
+
+          <ul class="lista__hashtags">
+            <!-- <li class="item__hashtag">
+              <p class="nome__hashtag">Gato laranja</p>
+              <img class="icone__fechar" src="./img/close_roxo.svg" alt="">
+            </li> -->
+          </ul>
+
+          <div class="botoes">
+            <button class="descartar">Descartar <img src="./img/trash.svg"> </button>
+            <button class="publicar">Publicar <img src="./img/arrow_forward.svg"> </button>
+          </div>
+        </fieldset>
+
+      </form>
+
+
+    </div>
+  </main>
+  
+  <script type="module" src="./script/script.js"></script>
+</body>
+</html>
