@@ -1,4 +1,4 @@
-Atualizado em 30/01/2025
+Atualizado em 08/02/2025
 
 # Alura
 Projetos feitos durante os estudos na Alura
@@ -12,6 +12,7 @@ Projetos feitos durante os estudos na Alura
 #### 🔗 [Alura Books](https://mhlacerda.github.io/alura/projeto_alurabooks)
 #### 🔗 [Lista de Compras](https://mhlacerda.github.io/alura/projeto_listaDeCompras)
 #### 🔗 Imersão Front-End [Spotify da Alura](https://mhlacerda.github.io/alura/imersao-frontend-projetoSpotify)
+#### 🔗 [Mundo Pet](https://mhlacerda.github.io/alura/mundoPet)
 
 ## Porjetos em andamento
 #### 📄 [Clinica Médica](https://github.com/mhlacerda/alura/tree/main/projeto_clinicamedica)
